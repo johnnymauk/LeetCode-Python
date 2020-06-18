@@ -5,7 +5,7 @@ from src.UniquesInList import Main
 
 class TestMain(unittest.TestCase):
     def test_simple_list(self):
-        print('Testing simple List')
+        print('Testing Simple List')
         data = [0, 1, 2, 3]
         result = Main.count_unique(data)
         self.assertEqual(4, result)
